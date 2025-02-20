@@ -3,50 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vendando a Mente - eBook</title>
+    <title>Vendando a Mente - Transforme Sua Vida</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
             background-color: #f4f4f4;
         }
         .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background: white;
+            max-width: 1000px;
+            margin: 0 auto;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: white;
         }
-        h1 {
-            color: #333;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
+        header {
             background: #007BFF;
             color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .cta {
+            background: #007BFF;
+            color: white;
+            padding: 15px 30px;
             text-decoration: none;
             border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
         }
-        .button:hover {
+        .cta:hover {
             background: #0056b3;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .benefits, .testimonials {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .benefit, .testimonial {
+            width: 30%;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Vendando a Mente - O Guia para Sua Saúde Mental</h1>
+    </header>
+    
     <div class="container">
-        <h1>Vendando a Mente - O Guia Completo</h1>
-        <p>Descubra como melhorar sua saúde mental e encontrar equilíbrio espiritual com este eBook completo.</p>
-        <p>Baixe agora e transforme sua vida!</p>
-        <a href="#" class="button">Adquirir Agora</a>
+        <section class="section">
+            <h2>Transforme sua vida com este eBook</h2>
+            <p>Aprenda como melhorar sua saúde mental e encontrar equilíbrio espiritual.</p>
+            <img src="ebook-cover.jpg" alt="Capa do eBook">
+            <br>
+            <a href="#" class="cta">Adquirir Agora</a>
+        </section>
+        
+        <section class="section">
+            <h2>O que você aprenderá?</h2>
+            <div class="benefits">
+                <div class="benefit">
+                    <h3>Autoconhecimento</h3>
+                    <p>Entenda melhor seus pensamentos e emoções.</p>
+                </div>
+                <div class="benefit">
+                    <h3>Equilíbrio Espiritual</h3>
+                    <p>Descubra práticas que fortalecem sua paz interior.</p>
+                </div>
+                <div class="benefit">
+                    <h3>Resiliência Mental</h3>
+                    <p>Desenvolva habilidades para lidar com desafios.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Depoimentos</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"Este eBook mudou minha vida! Agora me sinto mais centrado e confiante."</p>
+                    <p><strong>- João Silva</strong></p>
+                </div>
+                <div class="testimonial">
+                    <p>"As técnicas ensinadas aqui realmente funcionam. Recomendo para todos!"</p>
+                    <p><strong>- Maria Oliveira</strong></p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Adquira agora!</h2>
+            <p>Não perca mais tempo, comece sua jornada de transformação hoje mesmo.</p>
+            <a href="#" class="cta">Baixar eBook</a>
+        </section>
     </div>
 </body>
 </html>
